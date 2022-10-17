@@ -1,0 +1,368 @@
+*{
+    box-sizing: border-box;
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: Dotum, '돋움',Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+HEADER{
+    height: 170px;
+}
+
+nav{
+    height: 46px;
+    border-top: 1px solid #f1f3f6;
+    border-bottom: 1px solid #d1d8e4;
+}
+
+nav ul{
+    display: inline-block;
+    margin: 0;
+    margin-left: 20px;
+    padding: 16px 0 0 4px;
+    list-style: none;
+}
+    
+
+#search  h1{
+    width: 222px;
+    height: 52px;
+    display: inline-block;
+    background-image: url(./sp_search.png);
+    background-position: 15px 0px;
+    text-indent: 100%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    vertical-align: middle ;
+    position: relative;
+    top: -2px;
+}
+
+#search-keyboard{
+    background-image: url(./sp_search.png);
+    background-repeat: no-repeat;
+    background-position: -33px -60px;
+    width: 19px;
+    height: 11px ;
+    display: inline-block;
+    margin: 0 6px;
+    vertical-align: middle;
+
+}
+
+
+#search-history{
+
+    background-image: url(./sp_search.png);
+    background-repeat: no-repeat;
+    background-position: -87px -60px;
+    width: 9px;
+    height: 4px;
+    display: inline-block;
+    margin: 0 6px;
+    vertical-align: middle;
+    margin-left: -4px;
+
+}
+
+
+#search a{ 
+    text-decoration: none;
+
+}
+
+ #search  h1 span{
+    display: none;
+ }
+
+#search h2{
+    display: none;
+}
+
+#search  fieldset{
+    margin-left: 20px;
+    padding: 12px 0 12px 10px;
+    width: 580px;
+    height: 50px;
+    border: 3px solid #03cf5d;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: middle;
+    position: relative;
+}
+
+.blind{
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+}
+#search fieldset input{
+    border: none;
+    padding: 0;
+    outline: none;
+    vertical-align: top;
+    width: 462px;
+    height: 25px;
+}
+#search fieldset button{
+    width:  50px;
+    height: 50px;
+    border: none;
+    background: #03cf5d;
+    position: absolute;
+    right: -2px;
+    top: -3px;
+    
+}
+#search-img{
+    background-position:  -3px -58px ;
+    background-image: url(./sp_search.png);
+    background-repeat: no-repeat;
+    width: 23px;
+    height: 46px;
+    display: inline-block;
+    margin: 10px;
+}
+
+
+
+.center-align{
+    margin: 0 auto;
+    width: 900px;
+    
+
+
+}
+
+nav li {
+    display: inline-block;
+
+}
+/* nav span:first-child{
+    height: 16px;
+    display: inline-block;
+    background-image: url(./sp_nav.png);
+    background-repeat: no-repeat;
+    margin-lest:40px;이렇게 마진 주고 처음 메일 부분에 margin-left 0
+    주면 돰
+    
+} 이렇게 해도 된다 공통 된 부분들은 근데 난 싫어 */
+
+nav li:first-child span:first-child{
+    width: 25px;
+    height: 16px;
+    background-position: 0 -285px;
+    background-image: url(./sp_nav.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+nav li:nth-child(2) span:first-child{
+    width: 27px;
+    height: 17px;
+    background-position: -280px -51px;
+    background-image: url(./sp_nav.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-left: 14px;
+
+
+}
+nav li:nth-child(3) span:first-child{
+    width: 40px;
+    height: 16px;
+    background-position: -100px -182px;
+    background-image: url(./sp_nav.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-left: 14px;
+}
+
+nav li:nth-child(4)  span:first-child{
+    width: 40px;
+    height: 16px;
+    background-position: -101px -156px;
+    background-image: url(./sp_nav.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-left: 14px;
+
+}
+
+nav li:nth-child(5)  span:first-child{
+    width: 26px;
+    height: 16px;
+    background-position: -279px -156px;
+    background-image: url(./sp_nav.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-left: 14px;
+}
+
+nav li:nth-child(6)  span:first-child{
+    width: 25px;
+    height: 16px;
+    background-position: -70px -285px;
+    background-image: url(./sp_nav.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-left: 14px;
+}
+
+nav li:nth-child(7)  span:first-child{
+    width: 38px;
+    height: 16px;
+    background-position: -122px -130px;
+    background-image: url(./sp_nav.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-left: 14px;
+}
+
+nav li:nth-child(8)  span:first-child{
+    width: 26px;
+    height: 16px;
+    background-position: -279px -208px;
+    background-image: url(./sp_nav.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-left: 14px;
+}
+
+nav li:nth-child(9)  span:first-child{
+    width: 28px;
+    height: 16px;
+    background-position: -128px -104px;
+    background-image: url(./sp_nav.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-left: 14px;
+}
+
+nav li:nth-child(10)  span:first-child{
+    width: 26px;
+    height: 16px;
+    background-position: -36px -259px;
+    background-image: url(./sp_nav.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-left: 14px;
+}
+
+nav li:nth-child(11)  span:first-child{
+    width: 39px;
+    height: 16px;
+    background-position: -151px -156px;
+    background-image: url(./sp_nav.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-left: 14px;
+}
+
+nav li:nth-child(12)  span:first-child{
+    width: 26px;
+    height: 16px;
+    background-position: -279px -130px;
+    background-image: url(./sp_nav.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-left: 14px;
+}
+
+nav li:nth-child(13)  span:first-child{
+    width: 27px;
+    height: 16px;
+    background-position: -234px -233px;
+    background-image: url(./sp_nav.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-left: 14px;
+}
+
+nav li:nth-child(14)  span:first-child{
+    width: 26px;
+    height: 16px;
+    background-position: -72px -259px;
+    background-image: url(./sp_nav.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-left: 14px;
+}
+
+nav li:nth-child(15)  span:first-child{
+    width: 13px;
+    height: 16px;
+    background-position: -140px -78px;
+    background-image: url(./sp_nav.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-left: 14px;
+}
+
+nav li:nth-child(16)  span:first-child{
+    width: 28px;
+    height: 16px;
+    background-position: -279px 0px;
+    background-image: url(./sp_nav.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-left: 14px;
+}
+
+
+.nav-divider{
+    display: inline-block;
+    margin: 18px 16px 0;
+    width: 1px;
+    height: 14px;
+    background: #ebeef3;
+}
+
+
+#header-top{
+    float: right;
+}
+
+#header-top{
+    color: #888;
+    letter-spacing: -1px;
+    font-size: 11px;
+    line-height: 22px;
+}
+
+#search{
+    clear: both;
+    /* 위 header-top의 float right 해제용도 */
+    padding-top: 20px;
+}
+
+#rank-num{
+    margin-top: -9px;
+    color: #00ab33;
+    font-size: 16px;
+    
+}
+#rnak-title{
+    letter-spacing: -1px;
+    font-size: 14px;
+}
+
+#search-ranking{
+    position: absolute;
+    top: 16px;
+    right: 31px;
+}
+#haha{
+    position: relative;
+}
